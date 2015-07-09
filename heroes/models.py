@@ -6,3 +6,4 @@ class Hero(models.Model):
     id = models.CharField(max_length=3, unique=True)
     name = models.CharField(max_length=50)
     localized_name = models.CharField(max_length=30)
+
